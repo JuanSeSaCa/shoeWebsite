@@ -102,4 +102,57 @@ vav a header a {
     color:#fff;
     text-deoration:none;
 }
+nav .container{
+    max-width: 1150px;
+    padding: 1em 2 em;
+    margin: 0 auto;
+}
+
+nav .container > div {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+} 
+
+nav .menu,
+nav form,
+.footer,
+.footer .watch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+nav ul a {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+nav form {
+    margin-right: 2em;
+}
+nav form input {
+    background: transparent;
+    color: #fff;
+    width: 12em;
+    padding: 0.5em 1 em;
+    border: none;
+    outline: none;
+}
+nav form input::placeholder {
+    color: #fff;
+}
+
+.logo{
+    width: 4em;
+    display: inline-block;
+}
 </html>
