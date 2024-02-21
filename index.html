@@ -1,158 +1,94 @@
 <!DOCTYPE html>
 <html lang="sp">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Build A Responsive Shoe Website with HTML, CSS & JS</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" type="module" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <nav>
             <div class="container">
-            </div>
-            <img src="logo.png" alt="Logo" class="logo" />
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="#">New Releases</a>"
-                    </li>
-                    <li>
-                        <a href="#">Men</a>
-                    </li>
-                    <li>
-                        <a href="#">Women</a>
-                    </li>
-                    <li>
-                        <a href="#">kids</a>
-                    </li>
-                    <li>
-                        <a href="#">Categories</a>
-                    </li>
-                </ul>
-                <form>
-                    <div class="search-icon">
-                        <i class=" fas fas fa-search"></i>
+                <div>
+                    <img src="storage/img/logo.png" alt="Logo" class="logo" />
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a href="#">New Releases</a>"
+                            </li>
+                            <li>
+                                <a href="#">Men</a>
+                            </li>
+                            <li>
+                                <a href="#">Women</a>
+                            </li>
+                            <li>
+                                <a href="#">kids</a>
+                            </li>
+                            <li>
+                                <a href="#">Categories</a>
+                            </li>
+                        </ul>
+                        <form>
+                            <div class="search-icon">
+                                <i class=" fas fas fa-search"></i>
+                            </div>
+                            <input type="text" class="search" placeholder="search..." />
+                            <button class="nav-btn">
+                                <i class="fas fa-car-plus"></i>
+                            </button>
+                        </form>
                     </div>
-                    <input
-                    type="text"
-                    class="search"
-                    placeholder="search..."
-                    />
-                    <button class="nav-btn">
-                        <i class="fas fa-car-plus"></i>
-                    </button>
-                </form>
-            </div>  
+                </div>
+                <div class="menu-btn">
+                    <i class="fas-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="body">
+            <div>
+                <h4>$47.97</h4>
+                <h1>Nike SuperRep Go</h1>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>The nike SuperRep Go
+                    Combines comfortable foam cushioning,
+                    flexibility and support to get you moving
+                    in circuit-based fitness classes or while
+                    streaming workouts at home.
+                </p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div>
+                <img src="storage/img/shoe.png" alt="Nike SuperRep Go" />
+            </div>
         </div>
-        <div class="menu-btn">
-            <i class="fas-bars"></i>
+        <div class="footer">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="watch">
+                <div class="play-icon">
+                    <i class=" fas fas fa-play"></i>
+                </div>
+                <h3>Preview</h3>
+            </div>
         </div>
-    </div>
-    </nav>
-    <div class="body">
-        <div  class="rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-        </div>
-        <p>The nike SuperRep Go
-            Combines comfortable foam cushioning,
-            flexibility and support to get you moving
-            in circuit-based fitness classes or while
-            streaming workouts at home.
-        </p>
-        <a href="#" class="btn">Add to cart</a>
-    </div>
-    <div>
-        <img src="storage/img/shoe.png" alt="Nike SuperRep Go"/>
-    </div>
-</div>
-<div class="footer">
-    <div class="social">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-    </div>
-    <div class="watch">
-        <div class="play-icon">
-            <i class=" fas fas fa-play"></i>
-        </div>
-        <h3>Preview</h3>
-    </div>
-</header>
-</div>
-</body>{
-    margin:0;
-    padding: 0;
-    font-family:'Noto Sans',sans-serif;
-    background:#333;
+    </header>
+</body>
 
-}
-nav{
-    color: #fff;
-    z-index:99;
-    position:relative;
-}
-vav a header a {
-    color:#fff;
-    text-deoration:none;
-}
-nav .container{
-    max-width: 1150px;
-    padding: 1em 2 em;
-    margin: 0 auto;
-}
-
-nav .container > div {
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    align-items: center;
-} 
-
-nav .menu,
-nav form,
-.footer,
-.footer .watch {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: inline-block;
-}
-nav ul li {
-    display: inline-block;
-    margin: 0 0.5em;
-}
-
-nav ul a {
-    font-size: 0.8em;
-    text-transform: uppercase;
-}
-nav form {
-    margin-right: 2em;
-}
-nav form input {
-    background: transparent;
-    color: #fff;
-    width: 12em;
-    padding: 0.5em 1 em;
-    border: none;
-    outline: none;
-}
-nav form input::placeholder {
-    color: #fff;
-}
-
-.logo{
-    width: 4em;
-    display: inline-block;
-}
 </html>
